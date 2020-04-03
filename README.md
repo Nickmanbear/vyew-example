@@ -1,4 +1,5 @@
 # vyew-example
+A Vue with Travis example project
 
 ## Project setup
 ```
