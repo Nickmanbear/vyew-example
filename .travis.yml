@@ -11,7 +11,9 @@ addons:
 
 cache: npm
 
-script: sonar-scanner
+script:
+- npm test
+- sonar-scanner
 
 before_deploy: npm run build
 
