@@ -5,7 +5,16 @@
   </div>
 </template>
 
-<script src="./App.js"></script>
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+</script>
 
 <style>
 #app {
